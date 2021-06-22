@@ -12,7 +12,7 @@ while True:
 
     all = lower + upper + numbers + symbols
 
-    userlength = int(input("Şifre uzunluğu:"))
+    userlength = int(input("Password length: "))
 
     password = "".join(random.sample(all, userlength))
 
