@@ -1,3 +1,4 @@
+#Let's sat we've entered 6,3
 num1 = int(input("enter num1: "))
 num2 = int(input("enter num2: "))
 
@@ -17,3 +18,6 @@ for i in range(1, num1-num2 + 1):
 result = (fact1)/((fact2)*(fact3))
 
 print(f"C({num1},{num2}) = {result}")
+
+#The output
+C(6,3) = 20.0
