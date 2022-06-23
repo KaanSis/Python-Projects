@@ -19,15 +19,15 @@ def div(num1,num2):
         print(num2//num1)
 #----------------------------
 
-#(Taking the input here)
 
+#operations
 print("1.ADD","2.SUB","3.MULTP","4.DIV")
 
 #(choosing the operation here)
 choice = int(input(("Choose an operation 1/2/3/4:")))
 
 if choice in (1,2,3,4):
-
+#(Taking the input here)
     num1 = int(input("enter number1:"))
     num2 = int(input("enter number2:"))
 
